@@ -1,0 +1,269 @@
+[
+  {
+    "id": "ladakh_trombe_shelter",
+    "name": "Ladakh Vernacular Trombe Wall Shelter",
+    "icon": "🏔️",
+    "type": "Indirect Solar Gain (Trombe Wall)",
+    "location_suitability": "Leh, Changthang, Ladakh Plateau (>3,500m ASL)",
+    "description": "A traditional high-thermal-mass vernacular structure featuring 450mm sun-dried adobe brick walls paired with a double-glazed south-facing Trombe wall for passive solar collection.",
+    "key_features": [
+      "450mm thick adobe sun-dried earth block wall (high thermal mass)",
+      "South-facing glazed solar thermal collector aperture",
+      "Traditional mud-straw insulated ceiling with poplar wood rafters",
+      "Naturally stabilized internal temperature swing"
+    ],
+    "geometry": {
+      "length": 6.5,
+      "width": 4.5,
+      "height": 2.8,
+      "wall_thickness": 0.45,
+      "roof_thickness": 0.20,
+      "window_area": 5.2,
+      "door_area": 1.8,
+      "roof_type": "flat",
+      "window_u_value": 1.6,
+      "door_u_value": 1.8,
+      "roof_u_value": 0.28
+    },
+    "material": {
+      "material": "Adobe/Earth",
+      "name": "Adobe Earth (450mm) + Straw Mud Plaster",
+      "thermal_conductivity": 0.60,
+      "absorptivity": 0.75,
+      "insulation_choice": "None",
+      "insulation_thickness": 0.0,
+      "layers": null
+    },
+    "thermal_params": {
+      "thermal_capacity": 6500000.0,
+      "internal_heat_gain": 180.0,
+      "ventilation_rate": 0.004
+    },
+    "expected_performance": "Maintains 16°C–21°C passively during -20°C winter nights."
+  },
+  {
+    "id": "tibetan_stone_refuge",
+    "name": "Tibetan High-Mass Stone Mountain Refuge",
+    "icon": "🏛️",
+    "type": "Granitic Heavy Thermal Mass Fortress",
+    "location_suitability": "Zanskar Range, Hemis High Valleys (>4,000m ASL)",
+    "description": "A rugged Himalayan shelter built from thick granitic stone blocks backed with an inner mineral wool insulating cavity and solid deodar timber roof structure.",
+    "key_features": [
+      "500mm dressed mountain stone masonry for extreme thermal inertia",
+      "Inner mineral wool cavity preventing thermal bridging",
+      "Recessed south triple-glazed windows with nighttime insulated shutters",
+      "Massive heat retention for remote off-grid resilience"
+    ],
+    "geometry": {
+      "length": 7.0,
+      "width": 5.0,
+      "height": 3.0,
+      "wall_thickness": 0.50,
+      "roof_thickness": 0.25,
+      "window_area": 4.5,
+      "door_area": 2.0,
+      "roof_type": "flat",
+      "window_u_value": 1.4,
+      "door_u_value": 1.6,
+      "roof_u_value": 0.22
+    },
+    "material": {
+      "material": "Stone",
+      "name": "Mountain Stone (500mm) + Mineral Wool (60mm)",
+      "thermal_conductivity": 2.00,
+      "absorptivity": 0.72,
+      "insulation_choice": "Mineral Wool",
+      "insulation_thickness": 0.06,
+      "layers": [
+        { "thickness": 0.50, "k": 2.00 },
+        { "thickness": 0.06, "k": 0.040 }
+      ]
+    },
+    "thermal_params": {
+      "thermal_capacity": 8200000.0,
+      "internal_heat_gain": 220.0,
+      "ventilation_rate": 0.005
+    },
+    "expected_performance": "Damps sub-zero swings; continuous steady indoor temperature."
+  },
+  {
+    "id": "military_defense_pod",
+    "name": "High-Altitude Military Defense Pod",
+    "icon": "🛡️",
+    "type": "Super-Insulated Prefabricated Habitat",
+    "location_suitability": "Siachen Glacier, Kargil Ridge, Daulat Beg Oldi (>4,800m ASL)",
+    "description": "An ultra-insulated, rapidly deployable composite shelter designed for extreme arctic sub-zero winds (-35°C) and sub-atmospheric pressure.",
+    "key_features": [
+      "Multi-layered composite wall with 100mm high-density EPS core",
+      "Airtight envelope with controlled mechanical heat-recovery ventilation",
+      "Triple-glazed argon-filled south solar apertures (U = 0.9 W/m²K)",
+      "Minimal envelope thermal bridging and rapid thermal responsiveness"
+    ],
+    "geometry": {
+      "length": 5.0,
+      "width": 3.2,
+      "height": 2.5,
+      "wall_thickness": 0.15,
+      "roof_thickness": 0.20,
+      "window_area": 2.2,
+      "door_area": 1.6,
+      "roof_type": "shed",
+      "window_u_value": 0.9,
+      "door_u_value": 1.2,
+      "roof_u_value": 0.18
+    },
+    "material": {
+      "material": "Timber",
+      "name": "Composite Structural Panel + EPS Insulation (100mm)",
+      "thermal_conductivity": 0.13,
+      "absorptivity": 0.60,
+      "insulation_choice": "EPS Insulation",
+      "insulation_thickness": 0.10,
+      "layers": [
+        { "thickness": 0.05, "k": 0.13 },
+        { "thickness": 0.10, "k": 0.035 }
+      ]
+    },
+    "thermal_params": {
+      "thermal_capacity": 1800000.0,
+      "internal_heat_gain": 250.0,
+      "ventilation_rate": 0.003
+    },
+    "expected_performance": "Ultra-low heat loss rate (<350W total) in -30°C conditions."
+  },
+  {
+    "id": "geodesic_polar_dome",
+    "name": "Geodesic Cold-Arid Arctic-Style Dome",
+    "icon": "🌐",
+    "type": "Aerodynamic Low-Surface-Area Geodesic Dome",
+    "location_suitability": "Pangong Tso Basin, High Passes (>4,300m ASL)",
+    "description": "An aerodynamic geodesic timber dome maximizing internal volume while minimizing external heat-radiating surface area. Optimized for fierce mountain winds.",
+    "key_features": [
+      "Aerodynamic icosahedral geometry minimizing convective wind chill",
+      "Lightweight timber struts with dense Sheep Wool & EPS triangular panels",
+      "Overhead zenith south-angled solar collector skylights",
+      "Central thermal mass rock-bed storage"
+    ],
+    "geometry": {
+      "length": 5.2,
+      "width": 5.2,
+      "height": 3.2,
+      "wall_thickness": 0.20,
+      "roof_thickness": 0.20,
+      "window_area": 4.0,
+      "door_area": 1.8,
+      "roof_type": "gable",
+      "window_u_value": 1.3,
+      "door_u_value": 1.5,
+      "roof_u_value": 0.20
+    },
+    "material": {
+      "material": "Timber",
+      "name": "Timber Facets + EPS Insulation (80mm)",
+      "thermal_conductivity": 0.13,
+      "absorptivity": 0.58,
+      "insulation_choice": "EPS Insulation",
+      "insulation_thickness": 0.08,
+      "layers": [
+        { "thickness": 0.04, "k": 0.13 },
+        { "thickness": 0.08, "k": 0.035 }
+      ]
+    },
+    "thermal_params": {
+      "thermal_capacity": 2400000.0,
+      "internal_heat_gain": 200.0,
+      "ventilation_rate": 0.004
+    },
+    "expected_performance": "High solar harvesting efficiency and minimal wind deflection loss."
+  },
+  {
+    "id": "spiti_earthbag_cabin",
+    "name": "Spiti Super-Insulated Earthbag Cabin",
+    "icon": "🛖",
+    "type": "Passive Solar Earthbag & Straw Eco-Shelter",
+    "location_suitability": "Kaza, Spiti Valley, Kinnaur (>3,800m ASL)",
+    "description": "An earthbag-tube constructed sustainable retreat with a curved mass envelope, sheep-wool sub-floor insulation, and an attached direct-gain sunspace.",
+    "key_features": [
+      "Curved thermal mass envelope reducing wind turbulence and surface exposure",
+      "Local renewable sheep-wool thermal blanket insulation (50mm)",
+      "Low embodied energy utilizing on-site mineral earth and clay",
+      "Integrated greenhouse thermal buffer"
+    ],
+    "geometry": {
+      "length": 5.5,
+      "width": 4.0,
+      "height": 2.7,
+      "wall_thickness": 0.35,
+      "roof_thickness": 0.18,
+      "window_area": 3.8,
+      "door_area": 1.8,
+      "roof_type": "gable",
+      "window_u_value": 1.5,
+      "door_u_value": 1.7,
+      "roof_u_value": 0.25
+    },
+    "material": {
+      "material": "Adobe/Earth",
+      "name": "Earthbag Mass (350mm) + Sheep Wool (50mm)",
+      "thermal_conductivity": 0.60,
+      "absorptivity": 0.70,
+      "insulation_choice": "Sheep Wool",
+      "insulation_thickness": 0.05,
+      "layers": [
+        { "thickness": 0.35, "k": 0.60 },
+        { "thickness": 0.05, "k": 0.045 }
+      ]
+    },
+    "thermal_params": {
+      "thermal_capacity": 4800000.0,
+      "internal_heat_gain": 150.0,
+      "ventilation_rate": 0.005
+    },
+    "expected_performance": "High thermal stability with 75%+ hours in comfort band."
+  },
+  {
+    "id": "solar_greenhouse_habitat",
+    "name": "Ladakh Passive Solar Greenhouse Habitat",
+    "icon": "🌱",
+    "type": "Integrated Solar Greenhouse & Living Quarters",
+    "location_suitability": "Nubra Valley, Leh District (>3,200m ASL)",
+    "description": "Combines a southern glazed solar greenhouse for cold-climate food production and thermal buffering with a heavily insulated rear residential core.",
+    "key_features": [
+      "Southern greenhouse buffer zone acting as a dynamic solar pre-heater",
+      "Rear rammed-earth Trombe wall with operable air vents for convective circulation",
+      "High daytime heat gain transferred into deep stone flooring",
+      "Dual benefit of fresh food security and zero-emission heating"
+    ],
+    "geometry": {
+      "length": 8.0,
+      "width": 4.5,
+      "height": 3.0,
+      "wall_thickness": 0.40,
+      "roof_thickness": 0.22,
+      "window_area": 8.5,
+      "door_area": 2.0,
+      "roof_type": "shed",
+      "window_u_value": 1.7,
+      "door_u_value": 1.8,
+      "roof_u_value": 0.24
+    },
+    "material": {
+      "material": "Adobe/Earth",
+      "name": "Rammed Earth (400mm) + Straw Board (50mm)",
+      "thermal_conductivity": 0.60,
+      "absorptivity": 0.80,
+      "insulation_choice": "Mineral Wool",
+      "insulation_thickness": 0.05,
+      "layers": [
+        { "thickness": 0.40, "k": 0.60 },
+        { "thickness": 0.05, "k": 0.040 }
+      ]
+    },
+    "thermal_params": {
+      "thermal_capacity": 7200000.0,
+      "internal_heat_gain": 220.0,
+      "ventilation_rate": 0.007
+    },
+    "expected_performance": "Peak daytime temperatures up to 25°C; nighttime buffer > 15°C."
+  }
+]

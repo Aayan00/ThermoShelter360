@@ -1,0 +1,10 @@
+material,thermal_conductivity_w_mk,density_kg_m3,specific_heat_j_kgk,absorptivity
+Brick,0.72,1800,840,0.65
+Stone,2.00,2200,790,0.70
+Concrete,1.70,2400,880,0.60
+Adobe/Earth,0.60,1600,900,0.70
+Timber,0.13,550,1600,0.55
+Mineral Wool,0.04,100,840,0.50
+EPS Insulation,0.035,30,1400,0.50
+Glass,1.00,2500,750,0.70
+Sheep Wool,0.045,35,1300,0.50

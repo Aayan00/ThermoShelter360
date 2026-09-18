@@ -1,0 +1,7 @@
+time,indoor_temperature,maximum_temperature,minimum_temperature,total_heat_flow
+0,20,20.5,-10.2,850
+1,19.5,20.0,-9.8,820
+2,19.0,19.7,-9.4,790
+3,18.6,19.3,-9.1,760
+4,18.2,19.0,-8.8,740
+5,17.9,18.7,-8.5,720
