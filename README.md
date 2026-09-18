@@ -123,7 +123,7 @@ $$E_{heat} = \sum_{t} \frac{\max(0, 18.0 - T_{in}(t)) \cdot C_{th}}{3.6 \times 1
 
 ### 2. Clone & Install
 ```bash
-git clone https://github.com/your-org/ThermoShelter360.git
+git clone https://github.com/Aayan00/ThermoShelter360.git
 cd ThermoShelter360
 pip install -r requirements.txt
 ```
@@ -134,7 +134,24 @@ streamlit run app.py
 ```
 Open **`http://localhost:8501`** in your browser.
 
-### 4. Run Automated Test Suite
+### 4. 🐳 Run via Docker / Docker Compose
+
+#### Option A: Docker Compose (Recommended)
+```bash
+docker compose up --build
+```
+
+#### Option B: Standalone Docker
+```bash
+# Build the container image
+docker build -t thermoshelter360:latest .
+
+# Run the container on port 8501
+docker run -d -p 8501:8501 --name thermoshelter360 thermoshelter360:latest
+```
+Access the application at **`http://localhost:8501`**.
+
+### 5. Run Automated Test Suite
 ```bash
 pytest -v tests/
 ```
